@@ -1,0 +1,19 @@
+{
+  "name": "dnaa",
+  "version": "1.0.0",
+  "description": "Drug And Alcohol Awareness website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafalzacher1/DNAA.git"
+  },
+  "author": "Rafal Zacher.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafalzacher1/DNAA/issues"
+  },
+  "homepage": "https://github.com/rafalzacher1/DNAA#readme"
+}
