@@ -2,7 +2,7 @@
   "name": "dnaa",
   "version": "1.0.0",
   "description": "Drug And Alcohol Awareness website.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/rafalzacher1/DNAA/issues"
   },
-  "homepage": "https://github.com/rafalzacher1/DNAA#readme"
+  "homepage": "https://github.com/rafalzacher1/DNAA#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
