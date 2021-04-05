@@ -14,4 +14,5 @@
  the route. Most of these files will be referenced by files in our routes folder.
  * views: this is where all of the files that are responsible for displaying dynamic content to the user
  are kept.
- * models: this is where all of the files that are responsible for interfacing with the database
+ * models: this is where all of the files that are responsible for interfacing with the database.
+ * libs: this is where all the customer classes/functions which provide functionality belong.
