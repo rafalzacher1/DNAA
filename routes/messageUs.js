@@ -23,7 +23,7 @@ routes.post('/', (request, result) => {
 		if (error) {
 			console.log(error);
 		} else {
-			console.log('Email sent: ' + info.reponse);
+			console.log('Email sent');
 		}
 	});
 	
