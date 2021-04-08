@@ -1,2 +1,16 @@
 eclipse.preferences.version=1
+encoding//views/pages/about.ejs=UTF-8
+encoding//views/pages/art.ejs=UTF-8
+encoding//views/pages/blogs.ejs=UTF-8
+encoding//views/pages/cancel.ejs=UTF-8
+encoding//views/pages/futureEvents.ejs=UTF-8
 encoding//views/pages/index.ejs=UTF-8
+encoding//views/pages/knowYourStuff.ejs=UTF-8
+encoding//views/pages/mailingList.ejs=UTF-8
+encoding//views/pages/messageUs.ejs=UTF-8
+encoding//views/pages/pastEvents.ejs=UTF-8
+encoding//views/pages/purityKits.ejs=UTF-8
+encoding//views/pages/speaker.ejs=UTF-8
+encoding//views/pages/subscribe.ejs=UTF-8
+encoding//views/pages/success.ejs=UTF-8
+encoding//views/pages/team.ejs=UTF-8
