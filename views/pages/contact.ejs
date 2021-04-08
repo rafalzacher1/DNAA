@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<%- include('../partials/head'); %>
+</head>
+
+<header class="masthead" style="background-image:url('assets/img/contact-bg.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <div class="site-heading">
+                        <h1>Contact Me</h1><span class="subheading">Have questions? I have answers.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <div></div>
+                <div class="text-center">
+                    <h1>Emails</h1>
+                    <ul style="margin: 0 auto;width: 55%;">
+                        <li>To join the team contact: <strong>jointheteam_dna@outlook.com</strong><br></li>
+                        <li>All other enquiries: <strong>dnacampaign@outlook.com</strong><br></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto">
+                <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+                <form id="contactForm" name="sentMessage" novalidate="novalidate" method="post" action="../messageUs">
+				    <div class="control-group">
+				        <div class="form-group floating-label-form-group controls">
+				        	<label>Name</label>
+				        	<input class="form-control" type="text" name="name" id="name" required placeholder="Name" />
+				        	<small class="form-text text-danger help-block"></small>
+				        </div>
+				    </div>
+				    <div class="control-group">
+				        <div class="form-group floating-label-form-group controls">
+				        	<label>Email Address</label>
+				        	<input class="form-control" type="email" name="email" id="email" required placeholder="Email Address" />
+				        	<small class="form-text text-danger help-block"></small>
+				        </div>
+				    </div>
+				    <div class="control-group"></div>
+				    <div class="control-group">
+				        <div class="form-group floating-label-form-group controls mb-3">
+				        <label>Message</label>
+				        <textarea class="form-control" name="message" id="message" data-validation-required-message="Please enter a message." required placeholder="Message" rows="5"></textarea>
+				        <small class="form-text text-danger help-block"></small>
+				    </div>
+				    </div>
+				    <div id="success"></div>
+				    <div class="form-group"><button class="btn btn-primary" id="sendMessageButton" type="submit">Send</button></div>
+				</form>
+            </div>
+        </div>
+    </div>
+    
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+        <%- include('../partials/navigation.ejs'); %>
+    </nav>
+    
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+    <div></div>
+    <%- include('../partials/scripts'); %>
+</body>
+
+</html>
