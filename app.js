@@ -28,6 +28,7 @@ const teamRoute = require('./routes/team.js');
 const futureEventsRoute = require('./routes/futureEvents.js');
 const subscribeRoute = require('./routes/subscribe.js');
 const messageRoute = require('./routes/messageUs.js');
+const conferenceRoute = require('./routes/conference.js');
 
 // Paypal routes.
 const successRoute = require('./routes/success.js');
@@ -47,6 +48,9 @@ app.use('/team', teamRoute);
 app.use('/future-events', futureEventsRoute);
 app.use('/subscribe', subscribeRoute);
 app.use('/messageUs', messageRoute);
+app.use('/conference', conferenceRoute);
+
+// Using paypal routes.
 app.use('/success', successRoute);
 app.use('/cancel', cancelRoute);
 
