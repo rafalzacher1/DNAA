@@ -15,10 +15,22 @@
                     </div>
                     <form class="form-inline" method="post" action="../subscribe">
                 	    <div class="form-group"><input class="form-control" id="email" type="email" name="sub_email" placeholder="Your Email"></div>
-                        <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe</button></div>
+                        <div class="form-group"><button id="subscribeButton" class="btn btn-primary" type="submit" onclick="subscribed()">Subscribe</button></div>
                     </form>
                 </div>
 			</section>
 		<p class="copyright">&#169; 2021 DNA. All Rights Reserved.</p>
 	</footer>
+	<script>
+		let suber = localStorage.getItem("sub");
+		
+		if(suber === "subed") {
+			document.getElementById("subscribeButton").style.backgroundColor = "#8311a9";
+		};
+		
+		
+		function subscribed() {
+			localStorage.setItem("sub", "subed");
+		}
+	</script>
 </div>
