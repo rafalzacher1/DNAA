@@ -1,0 +1,13 @@
+@keyframes colours {
+     0% {
+        background-color: #8311a9
+    }
+
+    50% {
+        background-color: #23a75e
+    }
+}
+
+.colourChange {
+	animation: 10000ms ease-in-out infinite colours;
+}
