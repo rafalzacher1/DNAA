@@ -133,6 +133,6 @@ app.post('/my-api/create-payment/', function(req, res) {
     		status: 'success'
     	});
     });
-}).listen(process.env.PORT || 5000, function() {
-  console.log('Server listening at http://localhost:5000/');
+}).listen(process.env.PORT || 80, function() {
+  console.log('Server listening at http://localhost:80/');
 });
