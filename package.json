@@ -4,7 +4,8 @@
   "description": "Drug And Alcohol Awareness website.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
   },
   "repository": {
     "type": "git",
@@ -33,5 +34,8 @@
     "paypal-rest-sdk": "^1.7.1",
     "pg": "^8.5.1",
     "request": "^2.88.2"
+  },
+  "engines": {
+	  "node": "14.x"
   }
 }
