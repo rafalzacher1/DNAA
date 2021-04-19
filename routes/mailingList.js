@@ -47,8 +47,8 @@ db.query('SELECT * FROM emails;', (error, results) => {
 			console.log(results.rows[i].email);
 			
 			let mailOptions = {
-				from: 'rafalzacher99@gmail.com', // Your email.
-				to: 'rafalzacher99@gmail.com', //results.rows[i].email, // The recipients.
+				from: 'dnacampaign@outlook.com', // Your email.
+				to: 'results.rows[i].email', // The recipients.
 				subject: 'Website contact us page message.',
 				html: htmlToSend
 			};
