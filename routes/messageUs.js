@@ -5,17 +5,17 @@ routes.post('/', (request, result) => {
 	let {name, email, message} = request.body;
 	
 	let transporter = nodemailer.createTransport({
-		service: 'gmail',
+		service: 'outlook',
 		auth: {
-			user: 'rafalzacher99@gmail.com', // Your email.
-			pass: '$rLspefo7&8R8n' // Your email password.
+			user: 'dnacampaign@outlook.com', // Your email.
+			pass: '' // Your email password.
 		}
 	});
 	
 	let mailOptions = {
 		from: email,
-		to: 'rafalzacher99@gmail.com', // Your email.
-		subject: 'Website contact us page message.',
+		to: 'dnacampaign@outlook.com', // Your email.
+		subject: 'Message from website.',
 		text: message + '. From ' + name
 	};
 	
