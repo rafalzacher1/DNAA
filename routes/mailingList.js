@@ -19,7 +19,7 @@ let transporter = nodemailer.createTransport({
 	service: 'gmail',
 	auth: {
 		user: 'rafalzacher99@gmail.com', // Your email.
-		pass: '$rLspefo7&8R8n' // Your email password.
+		pass: 'fru@iprAdruW4ej' // Your email password.
 	}
 });
 
@@ -47,7 +47,7 @@ db.query('SELECT * FROM emails;', (error, results) => {
 			console.log(results.rows[i].email);
 			
 			let mailOptions = {
-				from: 'dnacampaign@outlook.com', // Your email.
+				from: 'rafalzacher99@gmail.com', // Your email.
 				to: 'results.rows[i].email', // The recipients.
 				subject: 'Website contact us page message.',
 				html: htmlToSend
