@@ -134,5 +134,10 @@ app.post('/my-api/create-payment/', function(req, res) {
     	});
     });
 }).listen(process.env.PORT || 80, function() {
-  console.log('Server listening at http://localhost:80/');
+	let envPort = process.env.PORT;
+	if (envPort != null) {
+		console.log('Server listening at http://localhost:' + envPort + '/');
+	} else {
+		console.log('Server listening at http://localhost:80/');
+	}
 });
